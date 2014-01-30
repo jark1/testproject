@@ -1,6 +1,6 @@
 #!/bin/sh
 
-touch /develop/jak/unit.test/$1
+touch /develop/jak/gov.eu.eurostats/$1
 git add -A
 git commit -m "added $1"
 git push
