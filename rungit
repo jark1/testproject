@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git checkout dev
+#git checkout dev
 touch gov.eu.eurostats/$1
 git add -A
 git commit -m "added $1"
